@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;900&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+} */
+/* body #addNewProduct{
+    display: hidden;
+}
+body form{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+body form label{
+    line-height: 2em;
+}
+body form input{
+  /* margin-left: 20px; */
+}
+body form #special{
+   /* margin-left: 20px; */
+}
+body form #btn{
+   /* margin-left: 30%; */
+   /* margin-top: 10px; */
+   margin-bottom: 5px;
+   padding: 5px;
+} */

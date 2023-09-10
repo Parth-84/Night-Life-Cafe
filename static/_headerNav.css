@@ -1,0 +1,95 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+.navbar img{
+    height: 200px;
+    width: 200px;
+}
+.navbar ul{
+    margin-right: 100px;
+}
+.navbar li{
+    display: inline-block;
+   list-style: none;
+   margin: 0px 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.navbar li a{
+ text-decoration: none;
+ color: #fff;
+
+}
+.navbar li a:hover,a:active{
+color: red;
+}
+.navbar span{
+    display: none;
+}
+
+.navbar #hmburger{
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    width:0px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.navbar #hmburger .closebtn{
+    font-size: 50px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+
+}
+.navbar #hmburger ul{
+    margin-top: 15px;
+    padding-left: 0;
+    width: 100%;
+}
+.navbar #hmburger li{
+    display: block;
+    border-bottom:1px solid black;
+    text-align: center;
+    width: 100%;
+   
+}
+.navbar #hmburger li a{
+    display: block;
+   color: black;
+   margin: 20px 0px;
+}
+
+
+
+@media(max-width:800px){
+    .navbar #hmbgul{
+        display: none;
+    }
+    .navbar span{
+        display: block;
+        color: #fff;
+        margin-right: 40px;
+        font-size: 40px;
+        margin-top: -40px;
+    }
+
+    
+}
+
+@media(max-width:468px){
+    .navbar img{
+        margin-left: -25px;
+    }
+    .navbar span{
+        margin-right: 25px;
+        margin-top: -95px;
+    }
+    
+}

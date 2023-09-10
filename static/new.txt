@@ -1,0 +1,105 @@
+<!-- <form method="">
+    <div class="first-sec">
+    <label for="fd_name">Food Name</label>
+    <label for="fd_categ">Food Category</label>
+    <div class="first-sec-1">
+        <input type="text" id="fd_name" placeholder="Food Name">
+        <select name="fd_categ" id="fd_categ">
+            <option value="Coffee">Special Coffees</option>
+            <option value="Pizza">Pizza</option>
+                <option value="Beverages">Beverages</option>
+                <option value="Burger">Burger</option>
+                <option value="Fries">Fries</option>
+                <option value="Combo">Meal</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="second-sec">
+        <label for="sl_price">Selling Price</label>
+        <label for="al_price">Actual Price</label>
+        <div class="second-sec-1">
+            <input type="text" placeholder="Selling Price" id="sl_price">
+            <input type="text" placeholder="Actual Price" id="al_price">
+            </div>
+</div>
+<div class="third-sec">
+    <label for="special">Special Item</label>
+    <label for="img_file">Upload Image</label>
+<div class="third-sec-1">
+    <select name="special" id="special">
+        <option value="1">true</option>
+        <option value="0">false</option>
+    </select>
+    <input type="file" type="image/*" id="img_file" >
+    </div>
+    </div>
+
+    </form> -->
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;900&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'Ubuntu', sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+.main-sec{
+    /* position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw; */
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff3f3;
+    height: 300px
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    max-height: 500px;
+    /* justify-content: space-around; */
+    /* background-color: #fff3f3; */
+}
+form .first-sec,.second-sec,.third-sec{
+    margin-bottom: 20px;
+}
+form .first-sec label{
+/* margin: 0px 10px; */
+margin-right: 135px;
+/* gap: 10px; */
+}
+form .first-sec .first-sec-1 input{
+/* margin: 0px 10px; */
+margin-right: 30px;
+}
+form .second-sec label{
+/* margin: 0px 10px; */
+margin-right: 135px;
+}
+form .second-sec .second-sec-1 input{
+/* margin: 0px 10px; */
+margin-right: 30px;
+}
+form .third-sec label{
+/* margin: 0px 10px; */
+margin-right: 135px;
+}
+form .third-sec .third-sec-1 select{
+/* margin: 0px 10px; */
+margin-right: 170px;
+}
